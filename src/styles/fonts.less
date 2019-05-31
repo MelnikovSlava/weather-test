@@ -1,0 +1,16 @@
+// @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+
+.font(@fontName; @urlName: @fontName; @weight: normal; @style: normal) {
+  font-family: '@{fontName}';
+  src: url('../assets/fonts/@{fontName}.ttf') format('truetype');
+    font-weight: @weight;
+    font-style: @style;
+};
+
+@font-face {
+  .font('Comfortaa');
+}
+
+body {
+  font-family: "Comfortaa", "Roboto", sans-serif;
+}
