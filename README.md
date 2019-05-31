@@ -8,7 +8,7 @@ npm start
 ```
 ## Задача
 
-Строка поиска с автодополнением.
+Погодное приложение с возможностью добавления городов.
 
 
->##### Demo https://melnikovslava.github.io/search-test/index.html
+>##### Demo https://melnikovslava.github.io/weather-test/index.html
